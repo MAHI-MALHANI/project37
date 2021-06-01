@@ -53,13 +53,18 @@ fill("GOLD");
     }
     //write code to highlight contest who answered correctly
     
-    for(var plr in allContestants){
-      var correctAns="2";
-      if(correctAns===allContestants[plr].answer)
-      fill("green");
-      else
-      fill("red");
+    for(var plr in allContestants){ 
+      debugger; 
+      var correctAns = "2";
+       if (correctAns === allContestants[plr].answer)
+        fill("Green");
+         else fill("red");
+          display_Answers+=30; 
+          textSize(20);
+          text(allContestants[plr].name + ": " + allContestants[plr].answer, 250,display_Answers) 
+        }
+
+        
     }
   }
 
-}
