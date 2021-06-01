@@ -44,7 +44,8 @@ class Quiz {
 
     //write condition to check if contestantInfor is not undefined
     if(allContestants !== undefined){
-
+      debugger;
+      var display_Answers=230;
     //write code to add a note here
 fill("GOLD");
       textSize(20);
